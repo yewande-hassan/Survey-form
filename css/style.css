@@ -1,0 +1,86 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing:border-box 1px solid;
+  line-height: 1.4;
+}
+#showcase{
+  border: none 1px solid;
+  background: #222 url('../img/featured.jpg')no-repeat center center/cover;
+  color: #fff;
+  height: 100vh;
+  width: 100%;
+  overflow-x: hidden;
+}
+#showcase .showcase-content{
+  background-color: rgba(0, 0, 0, 0.7);
+  z-index: 1;
+  height: 280vh;
+}
+#title{
+  text-align: center;
+  padding: 1rem;
+  font-family: sans-serif;
+}
+#description{
+  text-align: center;
+  padding:1rem;
+  font-family: cursive;
+  padding-top: 0;
+}
+#survey-form{
+  border: none 1px solid;
+  border-radius: 5px;
+  height: 250vh;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.9);
+  z-index: 2;
+
+}
+#survey-form label{
+  display: block;
+  padding: 1rem;
+  padding-bottom: 0;
+}
+ #name,
+ #email,
+ #number,
+ #dropdown,
+ #feature{
+  width: 95%;
+  margin: 0.8rem;
+  margin-top: 0.2rem;
+  border-radius: 5px;
+}
+
+#survey-form .recommendation{
+  text-align: left;
+}
+#survey-form .recommendation input{
+  margin: 0 5px 0 30px;
+}
+#survey-form .improved{
+  text-align: left;
+}
+#survey-form .improved input{
+  margin: 0 10px 0 20px;
+}
+#survey-form .text{
+  text-align: left;
+}
+#survey-form .text textarea{
+  margin: 0 0.8rem 0.8rem 0.8rem;
+  border-radius: 5px;
+  width: 95%;
+  border-radius: 5px;
+}
+#submit{
+  background: white;
+  color: black;
+  width: 95%;
+  height: 30px;
+  margin: 1rem;
+  align-items: center;
+  border-radius: 5px;
+} 
+#submit:hover{opacity: 0.7;}
